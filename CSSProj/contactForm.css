@@ -1,0 +1,171 @@
+body {
+    font-family: 'Roboto ', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .text-white {
+    color: #ffffff;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+
+  /* ---------------<nav-bar>------------------- */
+  .navbar {
+    padding: 20px 0;
+    width: 100%;
+    height: auto;
+    background-color: #283b4e;
+  }
+
+  .logo,
+  .nav {
+    display: inline-block;
+    margin: 0;
+  }
+
+  .logo {
+    margin-left: 10%;
+  }
+
+  /* nav links */
+  .nav li {
+    display: inline-block;
+    margin-left: 40px;
+  }
+
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  /* if you want pull right nav links */
+  .nav-right {
+    float: right;
+    line-height: 39px;
+    margin-right: 10%;
+  }
+
+  /* ---------------</nav-bar>------------------- */
+
+  /* ---------------<header>------------------- */
+
+  .masthead {
+    background-color: #9d7dfb;
+    padding: 25px;
+  }
+
+  .masthead-avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 60px;
+  }
+
+  .divider-custom {
+    display: inline-flex;
+  }
+
+  .divider-light>.divider-custom-line {
+    background: #ffffff;
+  }
+
+  .masthead-heading {
+    margin-bottom: 0%;
+  }
+
+  .masthead-subheading {
+    margin-top: 1%;
+    font-size: 12px;
+  }
+
+  /* ---------------</header>------------------- */
+  /* ---------------<contact>------------------- */
+  
+
+    .divider-custom-line {
+    height: 2px;
+    width: 80px;
+    margin: 3%;
+    background: #000000;
+  }
+
+
+  .form-group {
+    position: relative;
+    margin: 20px 0;
+    margin-left: 30%;
+  }
+
+  .form-control {
+    background: none;
+    color: #828b91;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 60%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #828b91;
+  }
+  #sendMessageButton{
+    border-radius: 8px;
+    background-color: #5bbf9d;
+    color: #ffffff;
+    height: 40px;
+    width: 70px;
+    border: none;
+    margin-left: 30%;
+    float: left;
+  }
+  /* ---------------</contact>------------------- */
+  /* ---------------<footer>------------------- */
+
+  .footer {
+    background-color: #283b4e;
+    padding: 20px 0;
+    width: 100%;
+    height: auto;
+    margin-top: 110px;
+  }
+
+  .footer-row {
+    display: inline-flex;
+  }
+
+  .footer-row>div {
+    margin: 3%;
+    width: 270px;
+  }
+
+  .footer-social-icon {
+    height: 18px;
+    width: 18px;
+    margin: 1px;
+    font-size: 9px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 0.5em;
+  }
+
+  /* ---------------</footer>------------------- */
+  /* ---------------<copyright>------------------- */
+
+  .copyright {
+    background-color: #12202a;
+    padding: 10px 0;
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+  }
+
+  /* ---------------</copyright>------------------- */
